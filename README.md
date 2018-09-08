@@ -1,2 +1,7 @@
 # EAP_Reviews
-WebAPI + WCF
+       - API + MVC
+       - API + Console
+       - API + Winform
+       - WCF + MVC
+       - WCF + Console
+       - WCF + Winform
