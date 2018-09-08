@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebEAP", "WebEAP\WebEAP.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCClient", "MVCClient\MVCClient.csproj", "{7F728AA1-C042-45D1-B960-A824B9825272}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosoleClient", "CosoleClient\CosoleClient.csproj", "{89A108D2-100A-4FEA-9FC6-4475CB727DC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7F728AA1-C042-45D1-B960-A824B9825272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F728AA1-C042-45D1-B960-A824B9825272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F728AA1-C042-45D1-B960-A824B9825272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A108D2-100A-4FEA-9FC6-4475CB727DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A108D2-100A-4FEA-9FC6-4475CB727DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A108D2-100A-4FEA-9FC6-4475CB727DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A108D2-100A-4FEA-9FC6-4475CB727DC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
