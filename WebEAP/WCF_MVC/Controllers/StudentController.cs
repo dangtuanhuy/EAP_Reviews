@@ -75,7 +75,21 @@ namespace WCF_MVC.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Student student = db.get
+            Student student = db.GetStudent(id);
+            if(student == null)
+            {
+                return HttpNotFound();
+
+            }
+            return View(student);
+        }
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(string id)
+        {
+            Student student = db.GetStudent(id);
+            db.DeleteStudent(id);
+            return RedirectToAction("Index");
         }
     }
 }
