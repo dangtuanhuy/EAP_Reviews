@@ -18,6 +18,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_MVC", "WCF_MVC\WCF_MVC.
 		{9E67E322-770D-4D5F-9F1A-3CE66FCD0779} = {9E67E322-770D-4D5F-9F1A-3CE66FCD0779}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Cosole", "WCF_Cosole\WCF_Cosole.csproj", "{18C9C432-35DB-4B34-B51F-F86631743758}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9E67E322-770D-4D5F-9F1A-3CE66FCD0779} = {9E67E322-770D-4D5F-9F1A-3CE66FCD0779}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Winform", "WCF_Winform\WCF_Winform.csproj", "{8614897B-CBFA-4A0B-B12C-0B2D24EF003A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +55,14 @@ Global
 		{E9E9B8B9-2F64-4989-B6C7-4F1276F232ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9E9B8B9-2F64-4989-B6C7-4F1276F232ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9E9B8B9-2F64-4989-B6C7-4F1276F232ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C9C432-35DB-4B34-B51F-F86631743758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C9C432-35DB-4B34-B51F-F86631743758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C9C432-35DB-4B34-B51F-F86631743758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C9C432-35DB-4B34-B51F-F86631743758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8614897B-CBFA-4A0B-B12C-0B2D24EF003A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8614897B-CBFA-4A0B-B12C-0B2D24EF003A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8614897B-CBFA-4A0B-B12C-0B2D24EF003A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8614897B-CBFA-4A0B-B12C-0B2D24EF003A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
