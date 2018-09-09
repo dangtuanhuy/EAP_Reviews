@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7261AE65-EA2A-467A-89EF-C81ACEB5B93E}</ProjectGuid>
+    <ProjectGuid>{18C9C432-35DB-4B34-B51F-F86631743758}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>WCF_Console</RootNamespace>
-    <AssemblyName>WCF_Console</AssemblyName>
+    <RootNamespace>WCF_Cosole</RootNamespace>
+    <AssemblyName>WCF_Cosole</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

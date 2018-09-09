@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WCF_Console
+namespace WCF_Cosole
 {
     class Program
     {
