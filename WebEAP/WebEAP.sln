@@ -24,6 +24,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Cosole", "WCF_Cosole\WC
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Winform", "WCF_Winform\WCF_Winform.csproj", "{8614897B-CBFA-4A0B-B12C-0B2D24EF003A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9E67E322-770D-4D5F-9F1A-3CE66FCD0779} = {9E67E322-770D-4D5F-9F1A-3CE66FCD0779}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
