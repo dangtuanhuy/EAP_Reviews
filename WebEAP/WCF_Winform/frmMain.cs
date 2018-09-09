@@ -68,8 +68,8 @@ namespace WCF_Winform
                 ServiceReference1.Service1Client client = new ServiceReference1.Service1Client();
                 if (MessageBox.Show("Are you sure you want to delete this student?", "frmMain", MessageBoxButtons.OKCancel) == DialogResult.OK)
                 {
-                    //int deleteStudentCode = int.Parse(dataGridView1.SelectedRows[0].Cells["LecturerID"].Value.ToString());
-                    String deleteStudentCode = dataGridView1.SelectedRows[0].Cells["Student_Code"].Value.ToString();
+                    //int deleteStudentCode = int.Parse(dataGridView1.SelectedRows[0].Cells["Student_Code"].Value.ToString());
+                    string deleteStudentCode = dataGridView1.SelectedRows[0].Cells["Student_Code"].Value.ToString();
                     if (client.DeleteStudent(deleteStudentCode))
                     {
                         dataGridView1.DataSource = client.GetStudents();
@@ -121,6 +121,18 @@ namespace WCF_Winform
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+        public void Reset1()
+        {
+            txtCode.Text = "";
+            txtDetails.Text = "";
+            txtEmail.Text = "";
+            txtPhone.Text = "";
+            txtName.Text = "";
+        }
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            Reset1();
         }
     }
 }
